@@ -18,13 +18,13 @@ Este projeto é um aplicativo web desenvolvido com Streamlit para análise de an
 
 ## Estrutura do projeto
 
-- `app.py`: aplicativo web
-- `vehicles_us.csv`: conjunto de dados
-- `requirements.txt`: dependências do projeto
-- `notebooks/EDA.ipynb`: análise exploratória de dados
-- `.streamlit/config.toml`: configuração para deploy
+- `app.py`
+- `vehicles_us.csv`
+- `requirements.txt`
+- `notebooks/EDA.ipynb`
+- `.streamlit/config.toml`
 
-## Como executar localmente
+## Como executar
 
 ```bash
 streamlit run app.py
