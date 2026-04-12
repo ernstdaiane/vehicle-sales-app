@@ -28,7 +28,7 @@ Este projeto é um aplicativo web desenvolvido com Streamlit para análise de an
 
 ```bash
 streamlit run app.py
-
+```md
 ## Links
 
 - GitHub: https://github.com/ernstdaiane/vehicle-sales-app
