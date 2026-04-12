@@ -28,6 +28,8 @@ Este projeto é um aplicativo web desenvolvido com Streamlit para análise de an
 
 ```bash
 streamlit run app.py
-Links
-GitHub: https://github.com/ernstdaiane/vehicle-sales-app
-Render: https://vehicle-sales-app-dv4m.onrender.com
+
+## Links
+
+- GitHub: https://github.com/ernstdaiane/vehicle-sales-app
+- Render: https://vehicle-sales-app-dv4m.onrender.com
