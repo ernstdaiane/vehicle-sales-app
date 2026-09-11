@@ -4,20 +4,46 @@ import streamlit as st
 
 car_data = pd.read_csv("vehicles_us.csv")
 
-st.header("Análise de anúncios de venda de carros")
+st.title("Vehicle Sales Analytics")
 
-st.write("Este aplicativo permite visualizar dados de anúncios de carros e gerar gráficos interativos.")
+st.write(
+    "Explore vehicle sales data through interactive visualizations "
+    "and discover patterns related to mileage and price."
+)
 
-hist_button = st.button("Criar histograma")
+st.subheader("Mileage Distribution")
+
+hist_button = st.button("Create mileage histogram")
 
 if hist_button:
-    st.write("Criando um histograma para a coluna odometer")
-    fig = px.histogram(car_data, x="odometer")
+    fig = px.histogram(
+        car_data,
+        x="odometer",
+        title="Distribution of Vehicle Mileage"
+    )
+
+    fig.update_layout(
+        xaxis_title="Mileage",
+        yaxis_title="Number of Vehicles"
+    )
+
     st.plotly_chart(fig, use_container_width=True)
 
-scatter_button = st.button("Criar gráfico de dispersão")
+st.subheader("Mileage vs Price")
+
+scatter_button = st.button("Explore mileage and price")
 
 if scatter_button:
-    st.write("Criando um gráfico de dispersão entre odometer e price")
-    fig = px.scatter(car_data, x="odometer", y="price")
+    fig = px.scatter(
+        car_data,
+        x="odometer",
+        y="price",
+        title="Vehicle Price vs Mileage"
+    )
+
+    fig.update_layout(
+        xaxis_title="Mileage",
+        yaxis_title="Price"
+    )
+
     st.plotly_chart(fig, use_container_width=True)
