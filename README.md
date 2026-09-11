@@ -1,29 +1,53 @@
-# Vehicle Sales Analytics Dashboard
+# Vehicle Sales Analytics App
 
 An interactive data application created to explore vehicle sales patterns and make automotive data easier to understand.
 
 ## About the Project
 
-The goal of this project was to transform a vehicle sales dataset into an interactive analytical experience.
+This project was developed to explore vehicle sales data through an interactive web application.
 
-Using Python and Streamlit, I explored relationships between vehicle mileage, price and other characteristics, while creating visualizations that allow users to interact with the data.
+Using Python and Streamlit, I analysed relationships between vehicle mileage, price and other characteristics, while creating simple visualizations that allow users to explore the data in a more accessible way.
 
-## Tools
+The project combines exploratory data analysis with an interactive application, turning a static dataset into a more practical and visual experience.
 
-Python · pandas · Plotly · Streamlit · Jupyter Notebook
+## Business Question
 
-## What I explored
+How can vehicle sales data be explored in a simple and interactive way to better understand pricing and mileage patterns?
 
-- Vehicle price distribution
-- Mileage distribution
-- Relationship between mileage and price
-- Interactive data visualization
+## Tools & Technologies
 
-## Live Application
+- Python
+- pandas
+- Plotly Express
+- Streamlit
+- Jupyter Notebook
+- Git & GitHub
 
-* GitHub: https://github.com/ernstdaiane/vehicle-sales-app
-* Render: https://vehicle-sales-app-dv4m.onrender.com
+## What I Explored
 
-## What I learned
+- Distribution of vehicle mileage
+- Relationship between mileage and vehicle price
+- Interactive exploration of vehicle sales data
+- Visual presentation of key patterns in the dataset
 
-This project helped me move beyond static analysis and think about how data can be presented in a simple and accessible way for other users.
+## Application
+
+The Streamlit application allows users to generate interactive visualizations directly from the vehicle sales dataset.
+
+👉 **Live App:** https://vehicle-sales-app-dv4m.onrender.com
+
+## Project Structure
+
+```text
+vehicle-sales-app/
+│
+├── app.py
+├── vehicles_us.csv
+├── requirements.txt
+├── .gitignore
+│
+├── notebooks/
+│   └── EDA.ipynb
+│
+└── .streamlit/
+    └── config.toml
