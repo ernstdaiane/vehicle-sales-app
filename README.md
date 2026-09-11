@@ -34,7 +34,7 @@ How can vehicle sales data be explored in a simple and interactive way to better
 
 The Streamlit application allows users to generate interactive visualizations directly from the vehicle sales dataset.
 
-👉 **Live App:** https://vehicle-sales-app-dv4m.onrender.com
+**Live App:** https://vehicle-sales-app-dv4m.onrender.com
 
 ## Project Structure
 
